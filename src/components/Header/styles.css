@@ -1,0 +1,48 @@
+.header {
+  height: 200px;
+  width: 100%;
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.background-gif {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.content {
+  width: fit-content;
+  position: absolute;
+  bottom: -22.5px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  padding: 4px 12px;
+
+  z-index: 1;
+
+  color: #fff;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  border-radius: 4px;
+  background-color: #3498db;
+}
+
+.weekDay {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.daysOfChristmas {
+  font-size: 12px;
+}

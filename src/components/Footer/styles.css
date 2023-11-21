@@ -1,0 +1,25 @@
+.footer {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  background-color: #3498db;
+}
+
+.task-input {
+  width: 100%;
+  padding-inline: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-input input {
+  flex-grow: 1;
+  padding: 8px;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+.task-input button {
+  padding-inline: 8px;
+  border-radius: 4px;
+}
